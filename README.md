@@ -86,3 +86,8 @@ Bulk upload incidents using the Elasticsearch bulk API with data in JSON formats
 - Scalability
 - Advanced Querying and Aggregations
 - Future extensions like alerts and automation with Kibana
+
+
+**Snapshot of the dashboard**
+
+![alt text](img.png)
