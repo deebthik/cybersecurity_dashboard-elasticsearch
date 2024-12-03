@@ -34,6 +34,8 @@ Before setting up the project, ensure you have the following installed:
 
 3. **Set up the backend**
   ```bash
+  python3 -m venv .
+  source bin/activate
   pip install -r requirements.txt
   uvicorn main:app --reload --port 8001
   ```

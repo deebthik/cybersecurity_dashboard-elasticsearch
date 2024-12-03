@@ -23,7 +23,7 @@ app.add_middleware(
 # Elasticsearch setup
 es = Elasticsearch(
     hosts=["https://localhost:9200"],
-    basic_auth=("elastic", "7uNhNxsb=vLD__GWi4M9"),  # Add your username and password here
+    basic_auth=("elastic", "9ksWiz-YIsUE*vxzk*eV"),  # Add your username and password here
     verify_certs=False
 )
 
@@ -69,7 +69,7 @@ def bulk_insert():
     command = [
         "curl", 
         "-k", 
-        "-u", "elastic:7uNhNxsb=vLD__GWi4M9", 
+        "-u", "elastic:9ksWiz-YIsUE*vxzk*eV", 
         "-X", "POST", 
         "https://localhost:9200/incidents/_bulk", 
         "-H", "Content-Type: application/json", 
@@ -77,6 +77,7 @@ def bulk_insert():
     ]
     run(command)
 
+bulk_insert()
 # Schedule the task to run every hour
 schedule.every(1).hour.do(bulk_insert)
 
