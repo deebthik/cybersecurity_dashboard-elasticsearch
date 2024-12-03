@@ -108,7 +108,7 @@ const App = () => {
       </div>
 
       <div className="incident-forms">
-        <h3 className="form-title">Add New Incident</h3>
+        <h3 className="form-title"><center>Add New Incident</center></h3>
         <div className="form-container">
           <input
             className="form-input"
