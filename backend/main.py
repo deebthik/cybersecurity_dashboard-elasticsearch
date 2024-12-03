@@ -7,6 +7,9 @@ import schedule
 import time
 import threading
 from subprocess import run
+from generate_2 import main as generate_2
+from generate import main as generate
+
 
 # FastAPI setup
 app = FastAPI()
@@ -27,6 +30,14 @@ es = Elasticsearch(
     verify_certs=False
 )
 
+# Delete all documents from the index "incidents"
+index_name = "incidents"
+response = es.delete_by_query(index=index_name, body={
+    "query": {
+        "match_all": {}  # Match all documents
+    }
+})
+
 # Pydantic models
 class Incident(BaseModel):
     title: str
@@ -41,16 +52,52 @@ class IncidentResponse(BaseModel):
     severity: str
     attack_type: str
 
-# Startup event to create index
+from elasticsearch import Elasticsearch
+
+# Function to calculate number of shards and replicas based on criteria
+def calculate_shards_and_replicas(data_volume: int, traffic_volume: int):
+    # Basic logic for dynamic shard and replica settings
+    # Increase number of shards as data volume grows
+    if data_volume > 1000000:  # Example condition for large data
+        num_shards = 5
+    else:
+        num_shards = 3  # Default value for moderate data
+
+    # Increase number of replicas for higher traffic or fault tolerance needs
+    if traffic_volume > 1000:  # Example condition for high traffic
+        num_replicas = 3
+    else:
+        num_replicas = 2  # Default number of replicas
+
+    return num_shards, num_replicas
+
+# Elasticsearch setup
+es = Elasticsearch(
+    hosts=["https://localhost:9200"],
+    basic_auth=("elastic", "9ksWiz-YIsUE*vxzk*eV"),
+    verify_certs=False
+)
+
 @app.on_event("startup")
 async def startup_event():
     index_name = "incidents"
     
+    # Determine data volume (e.g., number of existing records)
+    existing_data = es.count(index=index_name)
+    data_volume = existing_data["count"]  # The current number of documents in the index
+
+    # Assume some logic for traffic volume, for now, we use a placeholder value
+    traffic_volume = 500  # This could be calculated dynamically based on API usage or similar
+
+    # Calculate shards and replicas dynamically
+    num_shards, num_replicas = calculate_shards_and_replicas(data_volume, traffic_volume)
+
+    # Check if the index exists, if not, create it with dynamic settings
     if not es.indices.exists(index=index_name):
         index_settings = {
             "settings": {
-                "number_of_shards": 3,
-                "number_of_replicas": 2
+                "number_of_shards": num_shards,
+                "number_of_replicas": num_replicas
             },
             "mappings": {
                 "properties": {
@@ -64,8 +111,24 @@ async def startup_event():
         }
         es.indices.create(index=index_name, body=index_settings)
 
+from datetime import datetime
+
 # Define the bulk insert function that runs the curl command
 def bulk_insert():
+
+    curr_dt = datetime.now()
+    timestamp = int(round(curr_dt.timestamp()))
+
+    # switching between both for demonstration purposes
+    if timestamp%2 == 0:
+        print("external API generation")
+        #the generate_2 function called generate_2.py which fetches CVE data from a online database, this is to show that this implementation can support external real-time APIs
+        generate_2()
+    else:
+        print("random data generating locally")
+        #there is a generate function randomly generates 50,000 data points to show how much load the implementation can handle
+        generate()
+
     command = [
         "curl", 
         "-k", 
@@ -79,7 +142,9 @@ def bulk_insert():
 
 bulk_insert()
 # Schedule the task to run every hour
-schedule.every(1).hour.do(bulk_insert)
+#schedule.every(1).hour.do(bulk_insert)
+schedule.every(1).minute.do(bulk_insert)
+
 
 # Function to run scheduled tasks
 def start_periodic_task():

@@ -69,3 +69,20 @@ Enhance search functionality with advanced filters, such as severity and attack 
 - Incident Management
 The backend supports creating and deleting incidents.
 Bulk upload incidents using the Elasticsearch bulk API with data in JSON formats.
+
+- Endpoint to plug in realtime SOC data such as incidents, vulnerabilities, new CVEs, etc.
+
+- Refreshes every minute so that the data and incidents are up to date
+
+- There are two approaches taken in this implementation to show a proof of concept of both
+  a. To create an endpoint where an external API can be plugged in, for eg data from an online CVE database
+  b. Randomly generated local data that is large in size (~50,000) to show the capacity and performance
+
+
+**Why Elasticsearch for this scenario**
+
+- High-Performance Search and Analytics
+- Real-Time Data Ingestion
+- Scalability
+- Advanced Querying and Aggregations
+- Future extensions like alerts and automation with Kibana
