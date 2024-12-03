@@ -114,7 +114,15 @@ async def search_incidents(
     }
 
     if query:
-        body["query"]["bool"]["must"].append({"match": {"title": query}})
+        # Fuzzy matching query for the `title` field
+        body["query"]["bool"]["must"].append({
+            "match": {
+                "title": {
+                    "query": query,
+                    "fuzziness": "AUTO"  # Automatically adjust the fuzziness level
+                }
+            }
+        })
 
     if severity:
         body["query"]["bool"]["filter"].append({"term": {"severity.keyword": severity}})
@@ -133,6 +141,7 @@ async def search_incidents(
         "size": size,
         "total_pages": (total_results // size) + (1 if total_results % size > 0 else 0)
     }
+
 
 @app.get("/aggregations")
 async def get_aggregations():
