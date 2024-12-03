@@ -1,0 +1,299 @@
+{ "index": { "_index": "incidents", "_id": "1" } }
+{ "incident_id": "1", "title": "Unauthorized Access Detected", "description": "Suspicious activity detected from IP 192.168.1.1.", "severity": "High", "attack_type": "Unauthorized Access", "affected_system": "Server A", "timestamp": "2024-12-01T10:15:30Z" }
+
+{ "index": { "_index": "incidents", "_id": "2" } }
+{ "incident_id": "2", "title": "Phishing Attempt on Employee Email", "description": "Employee received a fake email requesting credentials.", "severity": "Medium", "attack_type": "Phishing", "affected_system": "Email Server", "timestamp": "2024-12-01T12:45:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "3" } }
+{ "incident_id": "3", "title": "SQL Injection Detected", "description": "SQL injection attack attempted on the user login form.", "severity": "High", "attack_type": "SQL Injection", "affected_system": "Web Server", "timestamp": "2024-12-01T14:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "4" } }
+{ "incident_id": "4", "title": "Ransomware Attack", "description": "Ransomware encrypted files on the file server.", "severity": "Critical", "attack_type": "Ransomware", "affected_system": "File Server", "timestamp": "2024-12-01T16:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "5" } }
+{ "incident_id": "5", "title": "DDoS Attack on Public Website", "description": "Distributed Denial of Service attack caused website downtime.", "severity": "High", "attack_type": "DDoS", "affected_system": "Web Server", "timestamp": "2024-12-01T18:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "6" } }
+{ "incident_id": "6", "title": "Cross-Site Scripting (XSS) Vulnerability", "description": "XSS vulnerability detected in the user profile section of the application.", "severity": "Medium", "attack_type": "XSS", "affected_system": "Web Application", "timestamp": "2024-12-01T19:45:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "7" } }
+{ "incident_id": "7", "title": "Malware Detected on Employee Laptop", "description": "Malware was found on a company laptop after visiting a suspicious website.", "severity": "High", "attack_type": "Malware", "affected_system": "Workstation", "timestamp": "2024-12-01T20:55:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "8" } }
+{ "incident_id": "8", "title": "Failed Login Attempts", "description": "Multiple failed login attempts detected on the server, potential brute force attack.", "severity": "Medium", "attack_type": "Brute Force", "affected_system": "Authentication System", "timestamp": "2024-12-01T22:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "9" } }
+{ "incident_id": "9", "title": "DNS Spoofing Attack", "description": "DNS spoofing redirected users to a phishing site.", "severity": "Medium", "attack_type": "DNS Spoofing", "affected_system": "DNS Server", "timestamp": "2024-12-01T23:20:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "10" } }
+{ "incident_id": "10", "title": "Compromised User Account", "description": "User account credentials were stolen and used to access sensitive files.", "severity": "Critical", "attack_type": "Credential Theft", "affected_system": "User Accounts", "timestamp": "2024-12-02T01:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "11" } }
+{ "incident_id": "11", "title": "Insider Threat Alert", "description": "Suspicious activity detected within the organization, indicating potential insider threat.", "severity": "High", "attack_type": "Insider Threat", "affected_system": "Internal Network", "timestamp": "2024-12-02T03:15:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "12" } }
+{ "incident_id": "12", "title": "Privilege Escalation Attempt", "description": "An attempt to escalate user privileges was detected on the server.", "severity": "High", "attack_type": "Privilege Escalation", "affected_system": "Server B", "timestamp": "2024-12-02T05:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "13" } }
+{ "incident_id": "13", "title": "Unpatched Software Vulnerability", "description": "A known software vulnerability was exploited to gain unauthorized access.", "severity": "Critical", "attack_type": "Exploitation", "affected_system": "Database Server", "timestamp": "2024-12-02T07:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "14" } }
+{ "incident_id": "14", "title": "Data Exfiltration Attempt", "description": "Attempt to exfiltrate sensitive data from the server was detected.", "severity": "High", "attack_type": "Data Theft", "affected_system": "File Server", "timestamp": "2024-12-02T09:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "15" } }
+{ "incident_id": "15", "title": "Brute Force Attack on Database", "description": "A brute force attack was detected against the database authentication mechanism.", "severity": "Medium", "attack_type": "Brute Force", "affected_system": "Database Server", "timestamp": "2024-12-02T11:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "16" } }
+{ "incident_id": "16", "title": "Weak Encryption Algorithm Detected", "description": "A weak encryption algorithm was found in use for sensitive data storage.", "severity": "Medium", "attack_type": "Encryption Weakness", "affected_system": "File Server", "timestamp": "2024-12-02T13:45:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "17" } }
+{ "incident_id": "17", "title": "Session Hijacking Attempt", "description": "A session hijacking attempt was detected on the user authentication system.", "severity": "High", "attack_type": "Session Hijacking", "affected_system": "Authentication System", "timestamp": "2024-12-02T15:50:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "18" } }
+{ "incident_id": "18", "title": "Malicious Insider Activity", "description": "Suspicious behavior detected from an employee with elevated privileges.", "severity": "Critical", "attack_type": "Insider Threat", "affected_system": "Internal Network", "timestamp": "2024-12-02T17:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "19" } }
+{ "incident_id": "19", "title": "Cross-Site Request Forgery (CSRF) Attack", "description": "A CSRF vulnerability was exploited to perform unauthorized actions on the web application.", "severity": "Medium", "attack_type": "CSRF", "affected_system": "Web Application", "timestamp": "2024-12-02T19:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "20" } }
+{ "incident_id": "20", "title": "Zero-Day Exploit", "description": "A zero-day exploit was used to bypass security mechanisms and gain unauthorized access.", "severity": "Critical", "attack_type": "Zero-Day", "affected_system": "Operating System", "timestamp": "2024-12-02T21:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "21" } }
+{ "incident_id": "21", "title": "API Key Leak", "description": "An API key was leaked, exposing access to sensitive system data.", "severity": "High", "attack_type": "Data Leak", "affected_system": "API Server", "timestamp": "2024-12-03T02:05:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "22" } }
+{ "incident_id": "22", "title": "Outdated Software Detected", "description": "Outdated software with known vulnerabilities was detected on the system.", "severity": "Medium", "attack_type": "Exploitation", "affected_system": "Server A", "timestamp": "2024-12-03T04:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "23" } }
+{ "incident_id": "23", "title": "Buffer Overflow Attack", "description": "A buffer overflow attack was detected on the web application.", "severity": "High", "attack_type": "Buffer Overflow", "affected_system": "Web Application", "timestamp": "2024-12-03T06:20:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "24" } }
+{ "incident_id": "24", "title": "File Inclusion Vulnerability", "description": "A file inclusion vulnerability was found in the web application, allowing arbitrary file execution.", "severity": "Medium", "attack_type": "File Inclusion", "affected_system": "Web Application", "timestamp": "2024-12-03T08:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "25" } }
+{ "incident_id": "25", "title": "Suspicious Data Transfer", "description": "Large volume of data was transferred to an external IP address.", "severity": "High", "attack_type": "Data Exfiltration", "affected_system": "File Server", "timestamp": "2024-12-03T10:15:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "26" } }
+{ "incident_id": "26", "title": "Credential Stuffing Attack", "description": "Credential stuffing attack detected on the login system using known username and password pairs.", "severity": "High", "attack_type": "Credential Stuffing", "affected_system": "Authentication System", "timestamp": "2024-12-03T12:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "27" } }
+{ "incident_id": "27", "title": "Suspicious User Behavior", "description": "Anomalous login activity detected from an unusual IP address.", "severity": "Medium", "attack_type": "Suspicious Activity", "affected_system": "User Accounts", "timestamp": "2024-12-03T14:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "28" } }
+{ "incident_id": "28", "title": "Malicious File Upload", "description": "A malicious file was uploaded through the file upload feature on the website.", "severity": "High", "attack_type": "Malicious Upload", "affected_system": "Web Application", "timestamp": "2024-12-03T16:25:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "29" } }
+{ "incident_id": "29", "title": "Eavesdropping Attack", "description": "A man-in-the-middle attack was detected while transmitting sensitive data.", "severity": "High", "attack_type": "Eavesdropping", "affected_system": "Network", "timestamp": "2024-12-03T18:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "30" } }
+{ "incident_id": "30", "title": "Unusual Outbound Traffic", "description": "Unusual outbound traffic detected from the internal network to external IP addresses.", "severity": "Medium", "attack_type": "Exfiltration", "affected_system": "Network", "timestamp": "2024-12-03T20:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "31" } }
+{ "incident_id": "31", "title": "Abuse of Privileges", "description": "An employee with administrative privileges attempted unauthorized actions.", "severity": "Critical", "attack_type": "Privilege Abuse", "affected_system": "Internal Network", "timestamp": "2024-12-03T22:15:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "32" } }
+{ "incident_id": "32", "title": "Denial of Service on Internal System", "description": "A Denial of Service attack targeted an internal application server.", "severity": "Medium", "attack_type": "DoS", "affected_system": "Application Server", "timestamp": "2024-12-04T00:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "33" } }
+{ "incident_id": "33", "title": "Cross-Site Scripting in Search Function", "description": "A cross-site scripting vulnerability was found in the search functionality of the website.", "severity": "Medium", "attack_type": "XSS", "affected_system": "Web Application", "timestamp": "2024-12-04T02:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "34" } }
+{ "incident_id": "34", "title": "Weak Password Detected", "description": "A user account was found using a weak password susceptible to brute force attacks.", "severity": "Medium", "attack_type": "Weak Password", "affected_system": "User Accounts", "timestamp": "2024-12-04T04:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "35" } }
+{ "incident_id": "35", "title": "Unauthorized Data Deletion", "description": "A user with low privileges was able to delete important files.", "severity": "High", "attack_type": "Unauthorized Deletion", "affected_system": "File Server", "timestamp": "2024-12-04T06:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "36" } }
+{ "incident_id": "36", "title": "Backdoor Access Detected", "description": "A backdoor access point was discovered on the web server.", "severity": "High", "attack_type": "Backdoor", "affected_system": "Web Server", "timestamp": "2024-12-04T08:15:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "37" } }
+{ "incident_id": "37", "title": "Suspicious Network Activity", "description": "Unexpected network traffic detected on internal systems, possibly related to exfiltration.", "severity": "High", "attack_type": "Network Intrusion", "affected_system": "Internal Network", "timestamp": "2024-12-04T10:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "38" } }
+{ "incident_id": "38", "title": "Zero-Day Attack on Web Application", "description": "A zero-day exploit was used to bypass web application security controls.", "severity": "Critical", "attack_type": "Zero-Day", "affected_system": "Web Application", "timestamp": "2024-12-04T12:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "39" } }
+{ "incident_id": "39", "title": "System Compromise Detected", "description": "Critical system files were altered without authorization, indicating a system compromise.", "severity": "High", "attack_type": "System Compromise", "affected_system": "Server A", "timestamp": "2024-12-04T14:05:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "40" } }
+{ "incident_id": "40", "title": "Access Control Flaw Detected", "description": "A flaw in the access control mechanism allowed unauthorized users to view sensitive data.", "severity": "High", "attack_type": "Access Control", "affected_system": "Database Server", "timestamp": "2024-12-04T16:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "41" } }
+{ "incident_id": "41", "title": "Suspicious File Activity", "description": "Suspicious file modifications detected on the file server, potentially from an external source.", "severity": "High", "attack_type": "File Tampering", "affected_system": "File Server", "timestamp": "2024-12-04T18:25:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "42" } }
+{ "incident_id": "42", "title": "Command Injection Attempt", "description": "A command injection attempt was detected in the input validation process of the web application.", "severity": "High", "attack_type": "Command Injection", "affected_system": "Web Application", "timestamp": "2024-12-04T20:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "43" } }
+{ "incident_id": "43", "title": "Data Manipulation Detected", "description": "Unauthorized data manipulation detected in the database.", "severity": "High", "attack_type": "Data Manipulation", "affected_system": "Database Server", "timestamp": "2024-12-04T22:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "44" } }
+{ "incident_id": "44", "title": "Privilege Escalation Vulnerability", "description": "A vulnerability that could lead to privilege escalation was discovered in the system.", "severity": "High", "attack_type": "Privilege Escalation", "affected_system": "Operating System", "timestamp": "2024-12-05T00:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "45" } }
+{ "incident_id": "45", "title": "Security Misconfiguration", "description": "Sensitive information was exposed due to improper security configurations in the web server.", "severity": "High", "attack_type": "Misconfiguration", "affected_system": "Web Server", "timestamp": "2024-12-05T02:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "46" } }
+{ "incident_id": "46", "title": "Unencrypted Traffic Detected", "description": "Sensitive data was transmitted over unencrypted HTTP instead of HTTPS.", "severity": "Medium", "attack_type": "Traffic Interception", "affected_system": "Network", "timestamp": "2024-12-05T04:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "47" } }
+{ "incident_id": "47", "title": "Cross-Site Request Forgery (CSRF) Attack", "description": "A CSRF attack was detected on the login page of the website.", "severity": "Medium", "attack_type": "CSRF", "affected_system": "Web Application", "timestamp": "2024-12-05T06:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "48" } }
+{ "incident_id": "48", "title": "Unauthorized VPN Access", "description": "An unauthorized VPN connection was established to the corporate network from an untrusted IP address.", "severity": "High", "attack_type": "VPN Exploit", "affected_system": "VPN Server", "timestamp": "2024-12-05T08:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "49" } }
+{ "incident_id": "49", "title": "Internal System Vulnerability", "description": "A vulnerability in an internal application system was exploited by a user with internal access.", "severity": "High", "attack_type": "Internal Exploit", "affected_system": "Internal Application", "timestamp": "2024-12-05T10:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "50" } }
+{ "incident_id": "50", "title": "SQL Injection Attack", "description": "An SQL injection vulnerability was exploited on the website's login page.", "severity": "Critical", "attack_type": "SQL Injection", "affected_system": "Web Application", "timestamp": "2024-12-05T12:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "51" } }
+{ "incident_id": "51", "title": "Data Breach Exposed Sensitive Information", "description": "A large data breach exposed sensitive employee information from the internal database.", "severity": "Critical", "attack_type": "Data Breach", "affected_system": "Database Server", "timestamp": "2024-12-05T14:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "52" } }
+{ "incident_id": "52", "title": "Botnet Activity Detected", "description": "Botnet activity was detected on the corporate network, attempting to perform a distributed denial of service (DDoS).", "severity": "High", "attack_type": "DDoS", "affected_system": "Network", "timestamp": "2024-12-05T16:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "53" } }
+{ "incident_id": "53", "title": "Application Code Injection", "description": "An attacker injected malicious code into the application through the web interface.", "severity": "High", "attack_type": "Code Injection", "affected_system": "Web Application", "timestamp": "2024-12-05T18:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "54" } }
+{ "incident_id": "54", "title": "Privilege Escalation Attack", "description": "A privilege escalation vulnerability was exploited to gain Higher system privileges on a server.", "severity": "Critical", "attack_type": "Privilege Escalation", "affected_system": "Server B", "timestamp": "2024-12-05T20:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "55" } }
+{ "incident_id": "55", "title": "Insider Threat Detected", "description": "An insider was detected trying to export sensitive corporate data.", "severity": "Critical", "attack_type": "Insider Threat", "affected_system": "Database Server", "timestamp": "2024-12-05T22:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "56" } }
+{ "incident_id": "56", "title": "Man-in-the-Middle Attack", "description": "A man-in-the-middle attack was detected intercepting communication between internal systems.", "severity": "High", "attack_type": "MITM", "affected_system": "Network", "timestamp": "2024-12-06T00:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "57" } }
+{ "incident_id": "57", "title": "Exploit of RCE Vulnerability", "description": "A remote code execution vulnerability was exploited on an internal web server.", "severity": "Critical", "attack_type": "RCE", "affected_system": "Web Server", "timestamp": "2024-12-06T02:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "58" } }
+{ "incident_id": "58", "title": "Malware Delivery via Email", "description": "Malware was delivered through a spear-phishing email campaign targeting employees.", "severity": "High", "attack_type": "Malware", "affected_system": "Email Server", "timestamp": "2024-12-06T04:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "59" } }
+{ "incident_id": "59", "title": "Unusual Data Flow Detected", "description": "A significant amount of sensitive data was flowing out of the corporate network to external IP addresses.", "severity": "High", "attack_type": "Data Exfiltration", "affected_system": "Network", "timestamp": "2024-12-06T06:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "60" } }
+{ "incident_id": "60", "title": "Unauthorized API Access", "description": "Unauthorized access was attempted on a public-facing API.", "severity": "High", "attack_type": "API Exploit", "affected_system": "API Server", "timestamp": "2024-12-06T08:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "61" } }
+{ "incident_id": "61", "title": "Abuse of System Resources", "description": "System resources were abused by a user, causing excessive resource consumption and system instability.", "severity": "Medium", "attack_type": "Resource Abuse", "affected_system": "Server A", "timestamp": "2024-12-06T10:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "62" } }
+{ "incident_id": "62", "title": "Unpatched Vulnerability Exploited", "description": "A vulnerability in an unpatched system was exploited by an external attacker.", "severity": "High", "attack_type": "Exploitation", "affected_system": "Server B", "timestamp": "2024-12-06T12:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "63" } }
+{ "incident_id": "63", "title": "Ransomware Attack Detected", "description": "Ransomware was detected encrypting Critical files on a file server.", "severity": "Critical", "attack_type": "Ransomware", "affected_system": "File Server", "timestamp": "2024-12-06T14:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "64" } }
+{ "incident_id": "64", "title": "Password Cracking Attempt", "description": "A password cracking attempt was detected targeting multiple accounts.", "severity": "Medium", "attack_type": "Brute Force", "affected_system": "Authentication System", "timestamp": "2024-12-06T16:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "65" } }
+{ "incident_id": "65", "title": "Lateral Movement Detected", "description": "An attacker was detected moving laterally across the internal network after an initial compromise.", "severity": "High", "attack_type": "Lateral Movement", "affected_system": "Internal Network", "timestamp": "2024-12-06T18:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "66" } }
+{ "incident_id": "66", "title": "Fake DNS Server Detection", "description": "A fake DNS server was found on the network redirecting users to malicious sites.", "severity": "High", "attack_type": "DNS Spoofing", "affected_system": "Network", "timestamp": "2024-12-06T20:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "67" } }
+{ "incident_id": "67", "title": "Social Engineering Attack", "description": "An attacker used social engineering to gain access to an employee's credentials.", "severity": "Medium", "attack_type": "Social Engineering", "affected_system": "User Accounts", "timestamp": "2024-12-06T22:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "68" } }
+{ "incident_id": "68", "title": "Code Repository Leak", "description": "Sensitive code was found leaked on a public code repository due to misconfigured access controls.", "severity": "High", "attack_type": "Code Leak", "affected_system": "Code Repository", "timestamp": "2024-12-07T00:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "69" } }
+{ "incident_id": "69", "title": "Session Hijacking Attempt", "description": "An attacker attempted to hijack an active user session through session fixation.", "severity": "High", "attack_type": "Session Hijacking", "affected_system": "Web Application", "timestamp": "2024-12-07T02:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "70" } }
+{ "incident_id": "70", "title": "Malicious Insider Attack", "description": "An employee with malicious intent attempted to steal intellectual property.", "severity": "Critical", "attack_type": "Insider Threat", "affected_system": "File Server", "timestamp": "2024-12-07T04:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "71" } }
+{ "incident_id": "71", "title": "Exploitation of Weakness in API", "description": "A vulnerability in the API was exploited, allowing unauthorized data access.", "severity": "High", "attack_type": "API Exploit", "affected_system": "API Server", "timestamp": "2024-12-07T06:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "72" } }
+{ "incident_id": "72", "title": "Brute Force Attack on SSH", "description": "A brute force attack was detected against SSH login on the internal servers.", "severity": "High", "attack_type": "Brute Force", "affected_system": "SSH Service", "timestamp": "2024-12-07T08:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "73" } }
+{ "incident_id": "73", "title": "System Vulnerability Exploitation", "description": "An attacker exploited an unpatched vulnerability on a public-facing application.", "severity": "High", "attack_type": "Exploitation", "affected_system": "Web Application", "timestamp": "2024-12-07T10:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "74" } }
+{ "incident_id": "74", "title": "Stealthy Data Exfiltration", "description": "Data exfiltration was detected using covert channels to avoid detection by security monitoring systems.", "severity": "High", "attack_type": "Data Exfiltration", "affected_system": "Network", "timestamp": "2024-12-07T12:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "75" } }
+{ "incident_id": "75", "title": "Unauthorized Data Access", "description": "An attacker gained unauthorized access to the internal database and retrieved sensitive customer data.", "severity": "High", "attack_type": "Data Breach", "affected_system": "Database Server", "timestamp": "2024-12-07T14:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "76" } }
+{ "incident_id": "76", "title": "Denial of Service Attack Detected", "description": "A denial of service (DoS) attack was detected on the corporate website, causing service interruptions.", "severity": "High", "attack_type": "DoS", "affected_system": "Web Application", "timestamp": "2024-12-07T16:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "77" } }
+{ "incident_id": "77", "title": "Exploitation of Insecure Deserialization", "description": "An insecure deserialization vulnerability was exploited in an internal application.", "severity": "Critical", "attack_type": "Deserialization Attack", "affected_system": "Internal Application", "timestamp": "2024-12-07T18:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "78" } }
+{ "incident_id": "78", "title": "Account Compromise", "description": "An employee's account was compromised through credential stuffing.", "severity": "Medium", "attack_type": "Credential Stuffing", "affected_system": "Authentication System", "timestamp": "2024-12-07T20:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "79" } }
+{ "incident_id": "79", "title": "File Integrity Check Failed", "description": "A file integrity check failed, indicating that Critical files on the server had been tampered with.", "severity": "High", "attack_type": "File Integrity Breach", "affected_system": "File Server", "timestamp": "2024-12-07T22:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "80" } }
+{ "incident_id": "80", "title": "Exploit of API Security Flaw", "description": "A Critical flaw in the API security was exploited to gain access to user data.", "severity": "Critical", "attack_type": "API Exploit", "affected_system": "API Server", "timestamp": "2024-12-08T00:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "81" } }
+{ "incident_id": "81", "title": "Unauthorized Access to Private Network", "description": "Unauthorized access was gained to the private network using stolen VPN credentials.", "severity": "High", "attack_type": "VPN Exploit", "affected_system": "VPN Server", "timestamp": "2024-12-08T02:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "82" } }
+{ "incident_id": "82", "title": "Cache Poisoning Attack", "description": "A cache poisoning attack was detected on a content delivery network, redirecting users to a malicious site.", "severity": "High", "attack_type": "Cache Poisoning", "affected_system": "CDN", "timestamp": "2024-12-08T04:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "83" } }
+{ "incident_id": "83", "title": "DDoS Attack on Database Server", "description": "A distributed denial-of-service (DDoS) attack was detected targeting the database server, resulting in temporary unavailability.", "severity": "High", "attack_type": "DDoS", "affected_system": "Database Server", "timestamp": "2024-12-08T06:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "84" } }
+{ "incident_id": "84", "title": "Fake Software Update Distribution", "description": "A fake software update was distributed to employees, aiming to install malware on their devices.", "severity": "High", "attack_type": "Malware", "affected_system": "User Devices", "timestamp": "2024-12-08T08:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "85" } }
+{ "incident_id": "85", "title": "Access Control Vulnerability Exploited", "description": "An access control vulnerability was exploited to gain unauthorized access to a secured resource.", "severity": "High", "attack_type": "Access Control Exploit", "affected_system": "File Server", "timestamp": "2024-12-08T10:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "86" } }
+{ "incident_id": "86", "title": "Critical Patch Not Applied", "description": "A Critical security patch was not applied, allowing attackers to exploit a vulnerability.", "severity": "High", "attack_type": "Exploitation", "affected_system": "Web Server", "timestamp": "2024-12-08T12:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "87" } }
+{ "incident_id": "87", "title": "Data Integrity Breach Detected", "description": "Suspicious changes were detected in the data integrity checks of Critical systems.", "severity": "High", "attack_type": "Data Integrity Breach", "affected_system": "Database Server", "timestamp": "2024-12-08T14:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "88" } }
+{ "incident_id": "88", "title": "Rootkit Detected on Internal Server", "description": "A rootkit was detected on an internal server, potentially allowing unauthorized access.", "severity": "High", "attack_type": "Rootkit", "affected_system": "Server A", "timestamp": "2024-12-08T16:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "89" } }
+{ "incident_id": "89", "title": "Unauthorized Modification of System Logs", "description": "System logs were found to have been tampered with in an attempt to cover up malicious activities.", "severity": "High", "attack_type": "Log Tampering", "affected_system": "Logging System", "timestamp": "2024-12-08T18:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "90" } }
+{ "incident_id": "90", "title": "Exploit of Zero-Day Vulnerability", "description": "A zero-day vulnerability was exploited on the internal email system, leading to unauthorized access.", "severity": "Critical", "attack_type": "Zero-Day Exploit", "affected_system": "Email System", "timestamp": "2024-12-08T20:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "91" } }
+{ "incident_id": "91", "title": "Unauthorized Use of Admin Privileges", "description": "Admin privileges were abused to gain unauthorized access to a secure database.", "severity": "Critical", "attack_type": "Privilege Abuse", "affected_system": "Database Server", "timestamp": "2024-12-08T22:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "92" } }
+{ "incident_id": "92", "title": "Data Exfiltration via Cloud Service", "description": "Sensitive data was exfiltrated through a compromised cloud service account.", "severity": "High", "attack_type": "Data Exfiltration", "affected_system": "Cloud Service", "timestamp": "2024-12-09T00:10:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "93" } }
+{ "incident_id": "93", "title": "Ransomware Attack on File Server", "description": "A ransomware attack was detected on the file server, encrypting Critical business files.", "severity": "Critical", "attack_type": "Ransomware", "affected_system": "File Server", "timestamp": "2024-12-09T02:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "94" } }
+{ "incident_id": "94", "title": "Abuse of VPN Access", "description": "VPN access was abused by an insider to access unauthorized resources.", "severity": "High", "attack_type": "VPN Exploit", "affected_system": "VPN Server", "timestamp": "2024-12-09T04:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "95" } }
+{ "incident_id": "95", "title": "Privilege Escalation Attack", "description": "An attacker escalated their privileges to gain unauthorized root access to a Critical server.", "severity": "High", "attack_type": "Privilege Escalation", "affected_system": "Server A", "timestamp": "2024-12-09T06:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "96" } }
+{ "incident_id": "96", "title": "SQL Injection Attack", "description": "An SQL injection attack was detected targeting the internal database.", "severity": "High", "attack_type": "SQL Injection", "affected_system": "Database Server", "timestamp": "2024-12-09T08:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "97" } }
+{ "incident_id": "97", "title": "Cross-Site Scripting (XSS) Attack", "description": "A cross-site scripting (XSS) attack was detected on the corporate website.", "severity": "High", "attack_type": "XSS", "affected_system": "Web Application", "timestamp": "2024-12-09T10:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "98" } }
+{ "incident_id": "98", "title": "Phishing Attack on Employees", "description": "A phishing attack was detected targeting employees, attempting to steal their login credentials.", "severity": "Medium", "attack_type": "Phishing", "affected_system": "Authentication System", "timestamp": "2024-12-09T12:30:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "99" } }
+{ "incident_id": "99", "title": "API Denial of Service Attack", "description": "A DoS attack was launched against the API server, impacting service availability.", "severity": "High", "attack_type": "DoS", "affected_system": "API Server", "timestamp": "2024-12-09T14:00:00Z" }
+
+{ "index": { "_index": "incidents", "_id": "100" } }
+{ "incident_id": "100", "title": "Social Engineering Attack on Admin", "description": "A social engineering attack targeted an administrator to gain access to Critical systems.", "severity": "High", "attack_type": "Social Engineering", "affected_system": "Admin Workstation", "timestamp": "2024-12-09T16:30:00Z" }

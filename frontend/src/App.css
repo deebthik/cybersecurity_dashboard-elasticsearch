@@ -1,0 +1,157 @@
+/* App Styling */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input, .dropdown, .search-button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.incident-forms {
+  margin-bottom: 40px;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-input, .form-textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  min-height: 100px;
+}
+
+.form-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+.incident-list-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.incident-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.incident-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 45%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.incident-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.incident-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.incident-severity, .incident-attack-type {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pagination-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+
+.pagination-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 18px;
+  color: #333;
+}

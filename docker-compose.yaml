@@ -1,0 +1,35 @@
+version: "3.8"
+services:
+  elasticsearch:
+    image: elasticsearch:8.9.1
+    environment:
+      - discovery.type=single-node
+      - ELASTIC_USERNAME=elastic
+      - ELASTIC_PASSWORD=h871i=_sMZxjSMNWlsWZ
+      - xpack.security.transport.ssl.enabled=false
+    ports:
+      - "9200:9200"
+    networks:
+      - mynetwork
+
+  backend:
+    build: ./backend
+    ports:
+      - "8001:8001"
+    depends_on:
+      - elasticsearch
+    networks:
+      - mynetwork
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
