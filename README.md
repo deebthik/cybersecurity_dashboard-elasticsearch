@@ -10,7 +10,6 @@ Before setting up the project, ensure you have the following installed:
 - Docker and Docker Compose
 - Node.js and npm
 - Python 3.8+ and pip
-- Basic knowledge of command-line tools
 
 ## Setting Up the Environment
 
@@ -91,3 +90,7 @@ Bulk upload incidents using the Elasticsearch bulk API with data in JSON formats
 **Snapshot of the dashboard**
 
 ![alt text](img.png)
+
+Wishing you both a lifetime of happiness in this exciting new chapter of your lives! 
+
+Congratulations on your wedding <3
