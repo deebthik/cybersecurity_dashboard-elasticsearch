@@ -90,7 +90,3 @@ Bulk upload incidents using the Elasticsearch bulk API with data in JSON formats
 **Snapshot of the dashboard**
 
 ![alt text](img.png)
-
-Wishing you both a lifetime of happiness in this exciting new chapter of your lives! 
-
-Congratulations on your wedding <3
